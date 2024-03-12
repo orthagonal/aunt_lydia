@@ -1,13 +1,11 @@
 # The Random Executive Alignment Method
-aka The "Intrusive Boss Method" aka "The Aunt Lydia Method" 
+(aka The "Intrusive Boss Method" aka "The Aunt Lydia Method")
 
-## A tool for maintaining focus during long sessions of tedious work.  Just open the
-
-
+  This is a tool for maintaining focus during long sessions of tedious work. Just open the timer.html page, set the alarm and put it in a corner of your monitor. Then get back to work.
 
 ### Introduction
-This is a simple tool, similar to the Pomodoro Technique, that can help you stay focused when you are working on a project that is boring, tedious or just requires a 4-minute compile time before you can see your changes. It helps
-to keep you on track by simulating your boss coming in at random intervals and just screaming incoherently at you until you make them go away.  
+This is a simple methodology, similar to the Pomodoro Technique, that can help you stay focused when you are working on a project that is boring, tedious or just requires a 4-minute compile time before you can see your changes. It helps
+to keep you on track by simulating your boss coming in at random intervals and just...screaming incoherently at you until you make them go away.  
 
 ### Explanation 
 
@@ -25,14 +23,15 @@ REAM helps by taking over the executive function work.  Set the timer, put the a
 And it'll keep screaming at you until you hit the Snooze button, which just sets another random timer.  Which will get you screamed at again, some time in the near future.
 
 
-It's not at all helpful when you're already 'in the zone'.  But it's _very_ effective during those times when you just aren't feeling it.
+It's not at all helpful when you're already 'in the zone'.  But it's _very_ effective during those times when you just aren't feeling it or are working on a project that has a long eval cycle.
 
 ### Benefits of REAM
 
 - Having an external disciplinarian can help you to stay focused on work during times when you're tired, hungry, hangry, horny, disillusioned, distracted, or just plain bored.
 - You can let your mind wander a little bit and still get re-aligned to your task at regular intervals. You don't have to be a Zen master, you just have to keep hitting the snooze button and trying to get back to work.
-- Trying to beat the next random timer tricks your mind into leaning forward and becoming more actively engaged in your task.
-- REAM can help you 'fake it til you make it'.  Getting constantly re-aligend back to your task eventually causes your brain to start getting absorbed in the task.   
+- Trying to beat the next random timer tricks your mind into leaning forward and becoming more actively engaged in your task.  Even if you're not in a distractable place the random timer can help gamify your work load.
+- REAM can help you 'fake it til you make it'.  Getting constantly re-aligned back to your task eventually causes your brain to start getting absorbed in the task.  I usually only use this for a few cycles before I'm able to get into the zone and turn it off.
+
 
 
 
