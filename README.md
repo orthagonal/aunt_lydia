@@ -4,7 +4,7 @@
   This is a tool for maintaining focus during long sessions of tedious work. Just open the timer.html page, set the alarm and put it in a corner of your monitor. Then get back to work.
 
 ### Introduction
-This is a simple methodology, similar to the Pomodoro Technique, that can help you stay focused when you are working on a project that is boring, tedious or just requires a 4-minute compile time before you can see your changes. It helps
+This simple methodology is similar to the Pomodoro Technique, except optimized to help you stay focused when you are working on a project that is boring, tedious or just requires a 4-minute compile time before you can see your changes. It helps
 to keep you on track by simulating your boss coming in at random intervals and just...screaming incoherently at you until you make them go away.  
 
 ### Explanation 
