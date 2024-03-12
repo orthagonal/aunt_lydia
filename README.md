@@ -18,12 +18,11 @@ Which means you have even less energy available to concentrate on the task that 
 It's a vicious cycle, both your cognition and meta-cognition are competing for resources and your overall productivity suffers. 
 
 
-REAM helps by taking over the executive function work.  Set the timer, put the app in a corner of your monitor and focus as best you can on the task at hand.  Even if you get distracted or click over to TikTok, at some random point in the next few minutes REAM is going to scream at you to get back to work.  
+REAM helps by taking over the executive function work.  Even if you get distracted or click over to TikTok, at some random point in the next few minutes REAM is going to scream at you to get back to work.  
 
 And it'll keep screaming at you until you hit the Snooze button, which just sets another random timer.  Which will get you screamed at again, some time in the near future.
 
-
-It's not at all helpful when you're already 'in the zone'.  But it's _very_ effective during those times when you just aren't feeling it or are working on a project that has a long eval cycle.
+It's not at all helpful when you're already 'in the zone', you don't want a methodology when you're already interested in what you're doing. But it's _very_ effective during those times when you just aren't feeling it or are working on a project that has a long eval cycle.
 
 ### Benefits of REAM
 
