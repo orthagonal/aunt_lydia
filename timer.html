@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Simple Alarm</title>
+  <style>
+    button { font-size: 20px; padding: 10px 20px; } 
+  </style>
+
+  <script>
+
+    const bosses = [
+      'https://i.etsystatic.com/17128268/r/il/7b1ee6/4283239575/il_1588xN.4283239575_g8w5.jpg'
+    ];
+
+    const load = () => {
+      let alarmTimeout;
+
+      const alarmButton = document.getElementById('alarmButton');
+      const alarmSound = document.getElementById('alarmSound');
+      const imageContainer = document.createElement("div");
+      imageContainer.id = "imageContainer";
+      document.body.appendChild(imageContainer);  
+
+      function setAlarm() {
+        const minInput = document.getElementById('minDuration');
+        const maxInput = document.getElementById('maxDuration');
+      
+        const minDuration = parseFloat(minInput.value);
+        const maxDuration = parseFloat(maxInput.value);
+      
+        if (minDuration >= maxDuration) {
+          alert("Minimum duration must be less than maximum duration");
+          return;
+        }
+      
+        // Calculate random duration within the specified range
+        const randomDuration = Math.random() * (maxDuration - minDuration) + minDuration;
+        const minutes = randomDuration * 60 * 1000; 
+
+          // KEEP ANNOYING THEM UNTIL THEY CLICK THE BUTTON
+          alarmTimeout = setTimeout(() => {
+          alarmSound.play();
+          alarmSound.loop = true; 
+          displayImage();
+        }, minutes);
+
+        alarmButton.innerText = 'Snooze';
+        alarmButton.removeEventListener('click', setAlarm);
+        alarmButton.addEventListener('click', snoozeAlarm);
+      }
+
+      function snoozeAlarm() {
+        clearTimeout(alarmTimeout);
+        alarmSound.pause();
+        alarmSound.currentTime = 0; 
+        alarmSound.loop = false; 
+        imageContainer.style.display = 'none'; // Hide boss 
+        setAlarm();
+      }
+
+      // get a random boss image and show it
+      function displayImage() {
+        const randomIndex = Math.floor(Math.random() * bosses.length);
+        const randomImageUrl = bosses[randomIndex];
+
+        const image = document.createElement("img");
+        image.src = randomImageUrl;
+        imageContainer.innerHTML = ''; // Clear previous image
+        imageContainer.appendChild(image);
+        imageContainer.style.display = 'block'; // Show image
+      }
+
+      alarmButton.addEventListener('click', setAlarm);
+    };
+
+    window.addEventListener('load', load);
+  </script>
+</head>
+<body>
+  <div>
+  <label for="minDuration">Minimum Duration (minutes):</label>
+  <input type="number" id="minDuration" min="1" value="2">
+
+  <label for="maxDuration">Maximum Duration (minutes):</label>
+  <input type="number" id="maxDuration" min="2" value="10">
+</div>
+  <button id="alarmButton">Set Alarm</button>
+  <audio id="alarmSound" src="alarm.mp3" preload="auto"></audio> 
+</body>
+</html>
